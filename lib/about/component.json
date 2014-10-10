@@ -1,0 +1,17 @@
+{
+  "name": "about",
+  "description": "About page",
+  "dependencies": {
+    "visionmedia/page.js": "1.3.7",
+    "component/dom": "1.0.6",
+    "component/t": "1.0.0",
+    "ripplejs/ripple": "0.5.3"
+  },
+  "locals": [
+    "render"
+  ],
+  "scripts": [ "about.js" ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "about.js"
+}

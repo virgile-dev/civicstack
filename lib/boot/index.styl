@@ -1,0 +1,31 @@
+body
+  -webkit-font-smoothing antialiased
+  background #dfdfdf
+  font-family "Lucida Grande"
+
+  h1,h2,h3
+    font-weight 100
+
+  a
+    color #333
+    font-weight bold
+    &:hover
+      text-decoration underline
+      color #333
+
+  .btn
+    letter-spacing 2px
+    text-transform uppercase
+
+  .site-content
+    margin 30px auto
+
+  .no-gutter [class*="col-"]
+    @media (min-width: 768px)
+      padding 0 !important
+
+  .btn.btn-back
+    background #e76059
+    color white
+    &:hover
+      background #e5493e

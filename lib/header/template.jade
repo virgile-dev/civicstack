@@ -1,0 +1,12 @@
+.navbar
+  .border
+  .container
+    .navbar-header
+      .logo.pull-left(data-logo='wikirepository', data-color='black')
+          a(href='/')=config['organization name']
+      a.navbar-brand(href='/')
+        =t('global.website.title')
+        small=t('global.website.subtitle')
+    ul.nav.navbar-nav.navbar-right
+      li: a(href='/about')=t('header.navbar.about-us')
+      li: a(href='/login')=t('header.navbar.login-with')

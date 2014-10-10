@@ -1,0 +1,15 @@
+doctype html5
+html
+  head
+    title=t('global.website.title')
+    meta(name="viewport",content="width=device-width, initial-scale=1.0")
+    link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/app.css')
+
+  body
+    header#top
+    section.container.site-content
+
+    script(src='/app.js')
+    script.
+      require('./lib/boot')
