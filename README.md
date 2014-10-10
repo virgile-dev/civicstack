@@ -1,4 +1,4 @@
-# DemocracyOS
+# WikiRepository
 This is a repository for open source civic tools from many countries and organizations
 
 ![WikiRepository](https://cldup.com/fch4kOvICp.png)
