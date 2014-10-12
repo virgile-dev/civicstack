@@ -1,32 +1,9 @@
-mixin app
-  .col-xs-10.col-sm-5.col-md-4.col-lg-3
-    article.app
-      section.app-logo
-        .vertical-align
-        img(src='http://consider.it/logo%20white%20pink%20tip.png', title='Considerit')
-      section.app-detail
-        header
-          h1: a(href='/apps/considerit') Considerit
-          h2 United States of America
-        p.description ConsiderIt is an open source deliberation platform that allows people to collaboratively create pro/con lists of the key points around any complex issue.
-        p.working-at Working at: Living Voters' Guide
-      footer
-        .twitter.pull-left
-          a(href='http://twitter.com/LVGuide' target='_blank') @LVGuide
-        .license.pull-right Lic: AGPL
-
-
-
-.row
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
-  +app
+#about
+  h1=t('about.title.what\'s.this')
+  p=t('about.body.what\'s.this')
+  h1=t('about.title.goal')
+  ul
+    li=t('about.body.goal.1')
+    li=t('about.body.goal.2')
+  h1=t('about.title.what.information')
+  p=t('about.body.information')
