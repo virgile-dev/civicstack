@@ -2,18 +2,18 @@ article.row.no-gutter.app-detail
     section.main-info.col-xs-12.col-lg-3
       .app-logo
         .vertical-align
-        img(src='http://consider.it/logo%20white%20pink%20tip.png', title='Considerit')
+        img(src='{{ application.logo() }}', title='Considerit')
       .app-data
-        h1 Considerit
-          small United States of America
+        h1 {{ application.name() }}
+          small {{ application.country() }}
         h2 Organization name
-          small ConsideritVLGuide
+          small {{ application.organization() }}
         h3 Contact
-          small info@consider.it
+          small {{ application.contact() }}
 
         footer.text-center
-          .twitter: a(href='http://twitter.com/LVGuide' target='_blank') @LVGuide
-          .license Lic: AGPL
+          .twitter: a(href='{{ application.twitterUrl() }}' target='_blank') {{ application.twitterUsername() }}
+          .license Lic: {{ application.license() }}
 
     aside.col-xs-12.col-lg-9.more-info-container
       .more-info

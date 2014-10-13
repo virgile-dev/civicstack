@@ -1,6 +1,6 @@
 {
-  "name": "app-detail",
-  "description": "Detail page for an app",
+  "name": "application-detail",
+  "description": "Detail page for an application",
   "dependencies": {
     "visionmedia/page.js": "1.3.7",
     "component/dom": "1.0.6",
@@ -8,10 +8,12 @@
     "ripplejs/ripple": "0.5.3"
   },
   "locals": [
+    "applications",
+    "application-model",
     "render"
   ],
-  "scripts": ["app-detail.js"],
+  "scripts": ["application-detail.js"],
   "styles": ["styles.styl"],
   "templates": [ "template.jade" ],
-  "main": "app-detail.js"
+  "main": "application-detail.js"
 }
