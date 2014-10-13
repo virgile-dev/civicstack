@@ -1,0 +1,11 @@
+{
+  "name": "request",
+  "description": "Wrapper of visionmedia/superagent for WikiRepository",
+  "dependencies": {
+    "component/bus": "0.0.2",
+    "visionmedia/debug": "2.0.0",
+    "visionmedia/superagent": "0.20.0"
+  },
+  "scripts": [ "request.js" ],
+  "main": "request.js"
+}

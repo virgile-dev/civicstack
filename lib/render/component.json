@@ -4,6 +4,7 @@
   "dependencies": {
     "component/domify": "1.2.0",
     "cristiandouce/merge-util": "0.1.0",
+    "ripplejs/ripple": "0.5.3",
     "component/t": "1.0.0"
   },
   "locals": [ "config" ],

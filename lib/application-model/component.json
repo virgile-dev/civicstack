@@ -1,0 +1,14 @@
+{
+  "name": "application-model",
+  "description": "Model for an Application",
+  "dependencies": {
+    "modella/modella": "0.2.9",
+    "modella/slug": "0.3.2",
+    "modella/ajax": "0.2.4"
+  },
+  "scripts": [
+    "application.js",
+    "proto.js"
+  ],
+  "main": "application.js"
+}
