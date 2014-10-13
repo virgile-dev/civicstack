@@ -1,0 +1,17 @@
+{
+  "name": "upload-modal",
+  "description": "Modal for uploading a new application",
+  "dependencies": {
+    "bmcmahen/modal": "0.1.1",
+    "ripplejs/ripple": "0.5.3"
+  },
+  "locals": [
+    "render"
+  ],
+  "scripts": [
+    "upload-modal.js"
+  ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "upload-modal.js"
+}

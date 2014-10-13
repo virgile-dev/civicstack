@@ -9,7 +9,8 @@
   },
   "locals": [
     "render",
-    "filters"
+    "filters",
+    "upload-button"
   ],
   "scripts": ["homepage.js"],
   "styles": ["styles.styl"],
