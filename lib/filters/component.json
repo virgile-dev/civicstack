@@ -1,0 +1,16 @@
+{
+  "name": "filters",
+  "description": "Filter applications by country, technology, event, tag and community",
+  "dependencies": {
+    "ripplejs/ripple": "0.5.3"
+  },
+  "locals": [
+    "render"
+  ],
+  "scripts": [
+    "filters.js"
+  ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "filters.js"
+}

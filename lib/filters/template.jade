@@ -1,0 +1,21 @@
+.filters.form-inline(role='form')
+  .form-group
+    label.sr-only(for='search')=t('form.label.search')
+    .input-group
+      .icon-addon
+        input(type='text', placeholder=t('form.label.search'), id='search').form-control
+        label.glyphicon.glyphicon-search
+  .form-group.dropdown
+    button#country.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.country')
+  .form-group.dropdown
+    button#technology.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.technology')
+  .form-group.dropdown
+    button#event.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.event')
+  .form-group.dropdown
+    button#tags.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.tags')
+  .form-group.dropdown
+    button#community.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.community')
+  .pull-right
+    button.btn.btn-lg.btn-upload
+      span.glyphicon.glyphicon-plus-sign
+      |  #{t('form.label.upload')}
