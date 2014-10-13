@@ -11,5 +11,14 @@
   "about.body.goal.1": "Hacer que esté disponible información generada colaborativamente y facilitar el acceso a herramientas cívicas virtuales y digitales que puedan fortalecer procesos organizativos y de toma de decisiones, así como las acciones activistas que llevan a cabo.",
   "about.body.goal.2": "Evitar que las organizaciones que desarrollan tecnología reinventen la rueda.",
   "about.title.what.information": "¿Qué información aparece?",
-  "about.body.information": "Information about each app or web. It's crowdsourced data. Organizations can create their own profiles and upload your own tools like GitHub."
+  "about.body.information": "Information about each app or web. It's crowdsourced data. Organizations can create their own profiles and upload your own tools like GitHub.",
+
+  "form.label.search": "Buscar",
+  "form.label.upload": "Upload",
+
+  "filters.label.country": "País",
+  "filters.label.technology": "Technology",
+  "filters.label.event": "Event",
+  "filters.label.tags": "Tags",
+  "filters.label.community": "Community"
 }

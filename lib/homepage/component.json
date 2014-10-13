@@ -8,7 +8,8 @@
     "ripplejs/ripple": "0.5.3"
   },
   "locals": [
-    "render"
+    "render",
+    "filters"
   ],
   "scripts": ["homepage.js"],
   "styles": ["styles.styl"],
