@@ -2,12 +2,13 @@
   "name": "upload-button",
   "description": "Button for uploading a new application",
   "dependencies": {
-    "component/overlay": "0.3.2",
+    "component/dom": "1.0.6",
     "ripplejs/ripple": "0.5.3",
     "ripplejs/events": "0.1.2"
   },
   "locals": [
-    "render"
+    "render",
+    "upload-modal"
   ],
   "scripts": [
     "button.js"

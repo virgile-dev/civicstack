@@ -2,16 +2,17 @@
   "name": "upload-modal",
   "description": "Modal for uploading a new application",
   "dependencies": {
-    "bmcmahen/modal": "0.1.1",
-    "ripplejs/ripple": "0.5.3"
+    "slifszyc/modal": "d07b64840800852dfa7c4fe54f8a60ca155fd715",
+    "ripplejs/ripple": "0.5.3",
+    "ripplejs/events": "0.1.2"
   },
   "locals": [
     "render"
   ],
   "scripts": [
-    "upload-modal.js"
+    "view.js"
   ],
   "styles": [ "styles.styl" ],
   "templates": [ "template.jade" ],
-  "main": "upload-modal.js"
+  "main": "view.js"
 }

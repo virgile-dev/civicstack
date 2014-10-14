@@ -1,12 +1,10 @@
-#myModal.modal.fade(tabindex='-1', aria-labelledby='myModalLabel', role='dialog', aria-hidden='true')
-  .modal-dialog
-    .modal-content
-      .modal-header
-      button.close(type='button', data-modal-close='true', aria-hidden='true') ×
-      h4#myMOdalLabel.modal-title Modal title
-      .modal-body
-      h3 header
-      p
-        | Lorem ipsum Do sit aute minim id et quis amet eiusmod cillum consectetur ad in nisi do sunt consectetur Duis minim deserunt ut et consequat sed ullamco in minim.
-      .modal-footer
-      a(href='#', data-modal-close='true') hide modal
+.modal-content.upload-modal
+  .modal-header
+    button.close(type='button', data-modal-close='true', aria-hidden='true', on-click='{{ this.close }}') ×
+    h4#myMOdalLabel.modal-title Modal title
+  .modal-body
+    h3 header
+    p
+      | Lorem ipsum Do sit aute minim id et quis amet eiusmod cillum consectetur ad in nisi do sunt consectetur Duis minim deserunt ut et consequat sed ullamco in minim.
+  .modal-footer
+    a(href='#', data-modal-close='true') hide modal
