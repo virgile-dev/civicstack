@@ -1,10 +1,25 @@
 .modal-content.upload-modal
   .modal-header
-    button.close(type='button', data-modal-close='true', aria-hidden='true', on-click='{{ this.close }}') ×
-    h4#myMOdalLabel.modal-title Modal title
+    h4.modal-title.row
+      .col-xs-4.title.active
+        span.number 1
+        | Cover
+      .col-xs-4.title
+        span.number 2
+        | Content
+      .col-xs-4.title
+        span.number 3
+        | Publish
   .modal-body
-    h3 header
-    p
-      | Lorem ipsum Do sit aute minim id et quis amet eiusmod cillum consectetur ad in nisi do sunt consectetur Duis minim deserunt ut et consequat sed ullamco in minim.
+    form.form.form-upload(role='form')
+      .form-group.upload-picture
+        button.btn.btn-default=t('upload-project.upload-logo.button')
+      .form-group.project-title
+        textarea.form-control(rows=3, placeholder=t('upload-project.title.placeholder'))
   .modal-footer
-    a(href='#', data-modal-close='true') hide modal
+    button.btn.btn-link.pull-left.btn-cancel(on-click='{{ this.close }}')
+      span.glyphicon.glyphicon-remove-sign
+      |  #{t('common.cancel')}
+    button.btn.btn-link.pull-right.btn-continue(on-click='{{ this.close }}')
+      span.glyphicon.glyphicon-ok-sign
+      |  #{t('common.continue')}

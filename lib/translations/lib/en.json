@@ -2,6 +2,9 @@
   "global.website.title": "Civic Stock",
   "global.website.subtitle": "wiki repository",
 
+  "common.cancel": "Cancel",
+  "common.continue": "Continue",
+
   "header.navbar.about-us": "About us",
   "header.navbar.login-with": "Login with",
 
@@ -20,5 +23,8 @@
   "filters.label.technology": "Technology",
   "filters.label.event": "Event",
   "filters.label.tags": "Tags",
-  "filters.label.community": "Community"
+  "filters.label.community": "Community",
+
+  "upload-project.upload-logo.button": "Upload logo",
+  "upload-project.title.placeholder": "Project title"
 }
