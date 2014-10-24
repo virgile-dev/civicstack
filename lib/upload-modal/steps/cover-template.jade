@@ -1,0 +1,25 @@
+.cover
+  .modal-header
+    h4.modal-title.row
+      .col-xs-4.title.active
+        span.number 1
+        | Cover
+      .col-xs-4.title
+        span.number 2
+        | Content
+      .col-xs-4.title
+        span.number 3
+        | Publish
+  .modal-body
+    form.form.form-upload(role='form')
+      .form-group.upload-picture
+        button.btn.btn-default=t('upload-project.upload-logo.button')
+      .form-group.project-title
+        textarea.form-control(name='title', rows=3, placeholder=t('upload-project.title.placeholder'))
+  .modal-footer
+    button.btn.btn-link.pull-left.btn-cancel(on-click='{{ this.close }}')
+      span.glyphicon.glyphicon-remove-sign
+      |  #{t('common.cancel')}
+    button.btn.btn-link.pull-right.btn-continue(on-click='{{ this.continue }}')
+      span.glyphicon.glyphicon-ok-sign
+      |  #{t('common.continue')}
