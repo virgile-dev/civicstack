@@ -59,7 +59,8 @@
     "modella": "0.2.9",
     "modella-mongo": "0.2.13",
     "modella-slug": "0.3.1",
-    "modella-resource": "0.13.0"
+    "modella-resource": "0.13.0",
+    "kouto-swiss": "0.10.3"
   },
   "scripts": {
     "postinstall": "node ./bin/njs-install && node ./bin/njs-config && node ./bin/njs-build"
