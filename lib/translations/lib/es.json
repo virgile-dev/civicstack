@@ -2,6 +2,9 @@
   "global.website.title": "Stock cívico",
   "global.website.subtitle": "wiki repository",
 
+  "common.cancel": "Cancelar",
+  "common.continue": "Continuar",
+
   "header.navbar.about-us": "Nosotros",
   "header.navbar.login-with": "Login con",
 
@@ -20,5 +23,8 @@
   "filters.label.technology": "Technology",
   "filters.label.event": "Event",
   "filters.label.tags": "Tags",
-  "filters.label.community": "Community"
+  "filters.label.community": "Community",
+
+  "upload-project.upload-logo.button": "Subir logo",
+  "upload-project.title.placeholder": "Título del proyecto"
 }
