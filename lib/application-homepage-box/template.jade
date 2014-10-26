@@ -1,0 +1,15 @@
+article.application
+  a(href='/apps/{{ application.slug }}')
+    section.app-logo
+      .vertical-align
+      img(src='{{ application.logo }}', title='{{ application.name }}')
+  section.app-detail
+    header
+      h1: a(href='/apps/{{ application.slug }}')='{{ application.name }}'
+      h2='{{ application.country }}'
+    p.description='{{ application.description }}'
+    p.working-at='{{ application.workingAt }}'
+  footer
+    .twitter.pull-left
+      a(href='http://twitter.com/{{ application.twitter }}' target='_blank')='@{{ application.twitter }}'
+    .license.pull-right='Lic: {{ application.license }}'

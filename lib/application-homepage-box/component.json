@@ -1,0 +1,13 @@
+{
+  "name": "application-homepage-box",
+  "description": "Homepage box for an application",
+  "dependencies": {
+    "staygrimm/ractive-adaptors-modella": "0.0.2"
+  },
+  "locals": [
+  ],
+  "scripts": ["view.js"],
+  "styles": ["styles.styl"],
+  "templates": [ "template.mustache" ],
+  "main": "view.js"
+}
