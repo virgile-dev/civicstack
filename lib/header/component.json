@@ -3,7 +3,7 @@
   "description": "header component",
   "dependencies": {
     "logo/logo": "0.0.1",
-    "ripplejs/ripple": "0.5.3"
+    "ractivejs/ractive": "v0.6.0"
   },
   "locals": [
     "render"
