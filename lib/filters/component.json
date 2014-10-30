@@ -2,7 +2,7 @@
   "name": "filters",
   "description": "Filter applications by country, technology, event, tag and community",
   "dependencies": {
-    "ripplejs/ripple": "0.5.3"
+    "ractivejs/ractive": "v0.6.1"
   },
   "locals": [
     "render"

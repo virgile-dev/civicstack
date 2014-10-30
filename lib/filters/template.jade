@@ -3,7 +3,7 @@
     label.sr-only(for='search')=t('form.label.search')
     .input-group
       .icon-addon
-        input(type='text', placeholder=t('form.label.search'), id='search').form-control
+        input(type='text', placeholder=t('form.label.search'), id='search', value='{{ search }}').form-control
         label.glyphicon.glyphicon-search
   .form-group.dropdown
     button#country.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.country')
