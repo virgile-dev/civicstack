@@ -2,13 +2,13 @@ section.row.applications
   | {{#applications}}
   .col-xs-3
     article.application
-      a(href='/apps/{{ slug }}')
+      a(href='/apps/{{ _id }}')
         section.app-logo
           .vertical-align
           img(src='{{ logo }}', title='{{ name }}')
       section.app-detail
         header
-          h1: a(href='/apps/{{ slug }}')='{{ name }}'
+          h1: a(href='/apps/{{ _id }}')='{{ name }}'
           h2='{{ country }}'
         p.description='{{ description }}'
         p.working-at='{{ workingAt }}'
