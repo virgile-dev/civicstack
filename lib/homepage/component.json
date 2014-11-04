@@ -13,7 +13,7 @@
     "filters",
     "upload-button"
   ],
-  "scripts": ["homepage.js"],
+  "scripts": ["homepage.js", "view.js"],
   "styles": ["styles.styl"],
   "templates": [ "template.jade" ],
   "main": "homepage.js"

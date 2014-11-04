@@ -1,0 +1,17 @@
+{
+  "name": "filter-by-country",
+  "description": "Filter applications by country",
+  "dependencies": {
+    "ractivejs/ractive": "v0.6.1"
+  },
+  "locals": [
+    "countries",
+    "ractive-modal",
+    "render"
+  ],
+  "scripts": [
+    "view.js"
+  ],
+  "templates": [ "template.jade" ],
+  "main": "view.js"
+}

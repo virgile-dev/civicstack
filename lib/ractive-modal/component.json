@@ -1,17 +1,16 @@
 {
-  "name": "filters",
-  "description": "Filter applications by country, technology, event, tag and community",
+  "name": "ractive-modal",
+  "description": "Sample modal from http://docs.ractivejs.org/latest/ractive-extend",
   "dependencies": {
     "ractivejs/ractive": "v0.6.1"
   },
   "locals": [
-    "filter-by-country",
     "render"
   ],
   "scripts": [
-    "filters.js"
+    "ractive-modal.js"
   ],
   "styles": [ "styles.styl" ],
   "templates": [ "template.jade" ],
-  "main": "filters.js"
+  "main": "ractive-modal.js"
 }

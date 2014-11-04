@@ -1,6 +1,8 @@
+filters
 section.row.applications
   | {{#applications}}
-  .col-xs-3
+  | {{#filter(this)}}
+  .col-xs-3(intro='fade', outro='fade')
     article.application
       a(href='/apps/{{ _id }}')
         section.app-logo
@@ -9,11 +11,12 @@ section.row.applications
       section.app-detail
         header
           h1: a(href='/apps/{{ _id }}')='{{ name }}'
-          h2='{{ country }}'
+          h2='{{ countryName }}'
         p.description='{{ description }}'
         p.working-at='{{ workingAt }}'
       footer
         .twitter.pull-left
           a(href='http://twitter.com/{{ twitter }}' target='_blank')='@{{ twitter }}'
         .license.pull-right='Lic: {{ license }}'
+  | {{/filter}}
   | {{/applications}}

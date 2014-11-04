@@ -1,0 +1,10 @@
+{
+  "name": "countries",
+  "description": "Component holding all the countries",
+  "dependencies": {
+    "component/t": "1.0.0"
+  },
+  "scripts": [ "index.js" ],
+  "json": ["proto.json"],
+  "main": "index.js"
+}
