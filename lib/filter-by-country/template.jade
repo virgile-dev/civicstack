@@ -1,0 +1,9 @@
+.filter-country
+  h1=t('country-modal.title')
+  ul.list
+    | {{#countries}}
+    li.country: label
+      input(type='checkbox', name='{{selected}}', value='{{this.code}}')
+      | {{this.name}}
+    | {{/countries}}
+  button.btn.btn-link.filter(type='button', on-click='go')=t('Go')

@@ -1,6 +1,7 @@
 {
   "global.website.title": "Civic Stock",
   "global.website.subtitle": "wiki repository",
+  "global.website.go": "Go",
 
   "common.cancel": "Cancel",
   "common.continue": "Continue",
@@ -26,5 +27,11 @@
   "filters.label.community": "Community",
 
   "upload-project.upload-logo.button": "Upload logo",
-  "upload-project.title.placeholder": "Project title"
+  "upload-project.title.placeholder": "Project title",
+
+  "country-modal.title": "Filter by country",
+
+  "countries.argentina": "Argentina",
+  "countries.usa": "United States of America",
+  "countries.france": "France"
 }

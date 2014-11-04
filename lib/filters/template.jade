@@ -6,13 +6,13 @@
         input(type='text', placeholder=t('form.label.search'), id='search', value='{{ search }}').form-control
         label.glyphicon.glyphicon-search
   .form-group.dropdown
-    button#country.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.country')
+    button.btn.btn-link.filter(type='button', on-click='countryClick')=t('filters.label.country')
   .form-group.dropdown
-    button#technology.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.technology')
+    button.btn.btn-link.filter(type='button')=t('filters.label.technology')
   .form-group.dropdown
-    button#event.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.event')
+    button.btn.btn-link.filter(type='button')=t('filters.label.event')
   .form-group.dropdown
-    button#tags.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.tags')
+    button.btn.btn-link.filter(type='button')=t('filters.label.tags')
   .form-group.dropdown
-    button#community.btn.btn-link.dropdown-toggle.filter(type='button', data-toggle='dropdown')=t('filters.label.community')
+    button.btn.btn-link.filter(type='button')=t('filters.label.community')
   .btn-upload-container.pull-right

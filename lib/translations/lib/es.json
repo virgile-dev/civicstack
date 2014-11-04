@@ -1,6 +1,7 @@
 {
   "global.website.title": "Stock cívico",
   "global.website.subtitle": "wiki repository",
+  "global.website.go": "Ir",
 
   "common.cancel": "Cancelar",
   "common.continue": "Continuar",
@@ -26,5 +27,11 @@
   "filters.label.community": "Community",
 
   "upload-project.upload-logo.button": "Subir logo",
-  "upload-project.title.placeholder": "Título del proyecto"
+  "upload-project.title.placeholder": "Título del proyecto",
+
+  "country-modal.title": "Filtrar por país",
+
+  "countries.argentina": "Argentina",
+  "countries.usa": "Estados Unidos",
+  "countries.france": "Francia"
 }
