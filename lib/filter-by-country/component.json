@@ -10,8 +10,8 @@
     "render"
   ],
   "scripts": [
-    "filter-by-country.js"
+    "view.js"
   ],
   "templates": [ "template.jade" ],
-  "main": "filter-by-country.js"
+  "main": "view.js"
 }

@@ -2,17 +2,19 @@
   "name": "application-detail",
   "description": "Detail page for an application",
   "dependencies": {
-    "visionmedia/page.js": "1.3.7",
-    "component/dom": "1.0.6",
-    "component/t": "1.0.0",
-    "ripplejs/ripple": "0.5.3"
+    "ractivejs/ractive": "v0.6.1",
+    "staygrimm/ractive-adaptors-modella": "*",
+    "visionmedia/page.js": "1.3.7"
   },
   "locals": [
     "applications",
     "application-model",
     "render"
   ],
-  "scripts": ["application-detail.js"],
+  "scripts": [
+    "application-detail.js",
+    "view.js"
+  ],
   "styles": ["styles.styl"],
   "templates": [ "template.jade" ],
   "main": "application-detail.js"

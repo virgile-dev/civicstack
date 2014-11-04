@@ -6,6 +6,9 @@
     "modella/slug": "0.3.2",
     "modella/ajax": "0.2.4"
   },
+  "locals": [
+    "countries"
+  ],
   "scripts": [
     "application.js",
     "proto.js"

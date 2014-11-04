@@ -1,37 +1,39 @@
 article.row.no-gutter.app-detail
-    section.main-info.col-xs-12.col-lg-3
-      .app-logo
-        .vertical-align
-        img(src='{{ application.logo() }}', title='Considerit')
-      .app-data
-        h1 {{ application.name() }}
-          small {{ application.country() }}
-        h2 Organization name
-          small {{ application.organization() }}
-        h3 Contact
-          small {{ application.contact() }}
+  | {{#application}}
+  section.main-info.col-xs-12.col-lg-3
+    .app-logo
+      .vertical-align
+      img(src='{{ logo }}', title='Considerit')
+    .app-data
+      h1 {{ name }}
+        small {{ countryName }}
+      h2 Organization name
+        small {{ organization }}
+      h3 Contact
+        small {{ contact }}
 
-        footer.text-center
-          .twitter: a(href='{{ application.twitterUrl() }}' target='_blank') {{ application.twitterUsername() }}
-          .license Lic: {{ application.license() }}
+      footer.text-center
+        .twitter: a(href='{{ twitterUrl }}' target='_blank') {{ twitterUsername }}
+        .license Lic: {{ license }}
 
-    aside.col-xs-12.col-lg-9.more-info-container
-      .more-info
-        h4 Website:
-          small: a(href='http://considre.it', target='_blank') www.consider.it
-        h4 Description:
-          small ConsiderIt is an open source deliberation platform that allows people to collaboratively create pro/con lists of the key points around any complex issue.
-        h4 Working at:
-          small Living Voter's Guide
-        h4 Team:
-          small Martin McFly, David Bowie, Eddie Murphy
-        h4 Technlogoy:
-          small Ruby on Rails, jQuery, Flash, HTML
-        h4 Github code:
-          small: a(href='http://github.com/marty-mcfly/considreit') http://github.com/marty-mcfly/considreit
-        h4 Tags:
-          small #debate #publicparticipation
+  aside.col-xs-12.col-lg-9.more-info-container
+    .more-info
+      h4 Website:
+        small: a(href='{{ website }}', target='_blank') {{ website }}
+      h4 Description:
+        small {{ description }}
+      h4 Working at:
+        small {{ workingAt }}
+      h4 Team:
+        small {{ team }}
+      h4 Technlogy:
+        small {{ technlogy }}
+      h4 Github code:
+        small: a(href='{{ github }}', target='_blank') {{ github }}
+      h4 Tags:
+        small {{ tags }}
 
-        a.btn.btn-default(href='/')
-          span.glyphicon.glyphicon-arrow-left
-          |  Back
+      a.btn.btn-default(href='/')
+        span.glyphicon.glyphicon-arrow-left
+        |  Back
+  | {{/application}}

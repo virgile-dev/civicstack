@@ -1,16 +1,5 @@
 {
-  "countries": [
-    {
-      "code": "arg",
-      "name": "countries.argentina"
-    },
-    {
-      "code": "usa",
-      "name": "countries.usa"
-    },
-    {
-      "code": "fr",
-      "name": "countries.france"
-    }
-  ]
+  "arg": "countries.argentina",
+  "usa": "countries.usa",
+  "fr": "countries.france"
 }
