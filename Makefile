@@ -8,7 +8,7 @@ endif
 
 run: node_modules
 	@echo "Booting application..."
-	@NODE_PATH=. DEBUG=$(DEBUG) node index.js
+	@NODE_PATH=. DEBUG=$(DEBUG) node-debug index.js
 
 node_modules:
 	@echo "Installing dependencies..."
