@@ -2,11 +2,12 @@
   "name": "user-model",
   "description": "User model component.",
   "dependencies": {
-    "component/emitter": "1.1.3",
+    "modella/modella": "0.2.9",
     "visionmedia/superagent": "0.20.0"
   },
   "scripts": [
-    "model.js"
+    "model.js",
+    "proto.js"
   ],
   "main": "model.js",
   "license": "MIT"
