@@ -18,5 +18,9 @@
       "consumerSecret": "TwitterConsumerSecret",
       "callback": "http://127.0.0.1:3000/auth/twitter/callback"
     }
+  },
+  "admin": {
+    "twitter": ["twitter account ids separated by commas"],
+    "github": ["github account ids separated by commas"]
   }
 }

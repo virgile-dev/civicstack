@@ -11,9 +11,10 @@
     "homepage",
     "application-detail",
     "about",
-    "restricted",
+    "admin",
     "translations",
-    "user"
+    "user",
+    "images"
   ],
   "scripts": [ "boot.js" ],
   "styles": ["index.styl"],

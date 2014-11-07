@@ -1,0 +1,21 @@
+{
+  "name": "admin",
+  "description": "Application admin page",
+  "dependencies": {
+    "visionmedia/page.js": "1.3.7",
+    "ractivejs/ractive": "v0.6.1",
+    "staygrimm/ractive-adaptors-modella": "*"
+  },
+  "scripts": [
+    "admin.js"
+  ],
+  "locals": [
+    "render",
+    "user",
+    "user-model"
+  ],
+  "templates": [
+    "template.jade"
+  ],
+  "main": "admin.js"
+}
