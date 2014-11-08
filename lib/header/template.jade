@@ -19,5 +19,8 @@
         a(href='/auth/github'): img(src='lib/images/github-on.svg')
       | {{else}}
       li: span.navbar-text: strong='{{user.fullName()}}'
+      | {{#if user.admin }}
+      li: a(href='/admin')=t('header.navbar.admin')
+      | {{/if}}
       li: a(href='/logout')=t('header.navbar.logout')
       | {{/if}}
