@@ -10,9 +10,13 @@
     "admin.js"
   ],
   "locals": [
+    "admin-applications-list",
     "render",
     "user",
     "user-model"
+  ],
+  "images": [
+    "images/edit.svg"
   ],
   "templates": [
     "template.jade"

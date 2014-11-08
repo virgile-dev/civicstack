@@ -1,0 +1,18 @@
+{
+  "name": "admin-applications-list",
+  "description": "Table list of all applications",
+  "dependencies": {
+    "visionmedia/page.js": "1.3.7",
+    "ractivejs/ractive": "v0.6.1",
+    "staygrimm/ractive-adaptors-modella": "*"
+  },
+  "locals": [
+    "applications",
+    "application-model",
+    "render"
+  ],
+  "scripts": [ "main.js", "view.js" ],
+  "styles": [ "styles.styl" ],
+  "templates": [ "template.jade" ],
+  "main": "main.js"
+}
