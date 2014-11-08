@@ -1,5 +1,5 @@
 ifndef DEBUG
-  DEBUG="njs*"
+  DEBUG="wikirepository*"
 endif
 
 ifndef NODE_ENV
