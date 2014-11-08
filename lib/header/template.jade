@@ -18,5 +18,6 @@
       li: span.navbar-text.navbar-login
         a(href='/auth/github'): img(src='lib/images/github-on.svg')
       | {{else}}
-      li: span.navbar-text='{{user.fullName()}}'
+      li: span.navbar-text: strong='{{user.fullName()}}'
+      li: a(href='/logout')=t('header.navbar.logout')
       | {{/if}}

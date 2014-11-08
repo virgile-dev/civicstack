@@ -8,6 +8,7 @@
 
   "header.navbar.about-us": "About us",
   "header.navbar.login-with": "Login with",
+  "header.navbar.logout": "Logout",
 
   "about.title.what's.this": "What's this?",
   "about.body.what's.this": "Repository civic open source tools from different countries and organizations.",
