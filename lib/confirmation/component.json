@@ -1,0 +1,9 @@
+{
+  "name": "confirmation",
+  "dependencies": {
+    "cristiandouce/confirmation": "d0861"
+  },
+  "scripts": ["confirmation.js"],
+  "styles": ["styles.styl"],
+  "main": "confirmation.js"
+}

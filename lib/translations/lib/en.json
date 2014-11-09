@@ -3,6 +3,7 @@
   "global.website.subtitle": "wiki repository",
   "global.website.go": "Go",
 
+  "common.ok": "Ok",
   "common.cancel": "Cancel",
   "common.continue": "Continue",
 
@@ -30,6 +31,9 @@
 
   "upload-project.upload-logo.button": "Upload logo",
   "upload-project.title.placeholder": "Project title",
+
+  "admin-applications-list.delete-confirmation.title": "Delete",
+  "admin-applications-list.delete-confirmation.body": "Are you sure you want to delete <strong>{name}</strong> application?",
 
   "country-modal.title": "Filter by country",
 

@@ -16,7 +16,8 @@
     "user-model"
   ],
   "images": [
-    "images/edit.svg"
+    "images/edit.svg",
+    "images/cancel.svg"
   ],
   "templates": [
     "template.jade"
