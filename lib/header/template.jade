@@ -7,6 +7,20 @@
       a.navbar-brand(href='/')
         =t('global.website.title')
         small=t('global.website.subtitle')
+    ul.nav.navbar-nav.navbar-left
     ul.nav.navbar-nav.navbar-right
       li: a(href='/about')=t('header.navbar.about-us')
-      li: a(href='/login')=t('header.navbar.login-with')
+      | {{#if !user.logged()}}
+      li
+        span.navbar-text: strong=t('header.navbar.login-with')
+      li: span.navbar-text.navbar-login
+        a(href='/auth/twitter'): img(src='lib/images/twitter-on.svg')
+      li: span.navbar-text.navbar-login
+        a(href='/auth/github'): img(src='lib/images/github-on.svg')
+      | {{else}}
+      li: span.navbar-text: strong='{{user.fullName()}}'
+      | {{#if user.admin }}
+      li: a(href='/admin')=t('header.navbar.admin')
+      | {{/if}}
+      li: a(href='/logout')=t('header.navbar.logout')
+      | {{/if}}

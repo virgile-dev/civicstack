@@ -3,11 +3,14 @@
   "global.website.subtitle": "wiki repository",
   "global.website.go": "Go",
 
+  "common.ok": "Ok",
   "common.cancel": "Cancel",
   "common.continue": "Continue",
 
   "header.navbar.about-us": "About us",
+  "header.navbar.admin": "Admin",
   "header.navbar.login-with": "Login with",
+  "header.navbar.logout": "Logout",
 
   "about.title.what's.this": "What's this?",
   "about.body.what's.this": "Repository civic open source tools from different countries and organizations.",
@@ -28,6 +31,9 @@
 
   "upload-project.upload-logo.button": "Upload logo",
   "upload-project.title.placeholder": "Project title",
+
+  "admin-applications-list.delete-confirmation.title": "Delete",
+  "admin-applications-list.delete-confirmation.body": "Are you sure you want to delete <strong>{name}</strong> application?",
 
   "country-modal.title": "Filter by country",
 

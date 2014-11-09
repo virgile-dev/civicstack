@@ -3,10 +3,14 @@
   "description": "header component",
   "dependencies": {
     "logo/logo": "0.0.1",
-    "ractivejs/ractive": "v0.6.0"
+    "ractivejs/ractive": "v0.6.0",
+    "staygrimm/ractive-adaptors-modella": "*",
+    "visionmedia/page.js": "1.3.7"
   },
   "locals": [
-    "render"
+    "render",
+    "user-model",
+    "user"
   ],
   "scripts": [
     "header.js"

@@ -1,0 +1,9 @@
+{
+  "name": "images",
+  "images": [
+    "twitter-on.svg",
+    "twitter-off.svg",
+    "github-on.svg",
+    "github-off.svg"
+  ]
+}

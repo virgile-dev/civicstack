@@ -1,0 +1,17 @@
+#admin-applications-list.row
+  .col-xs-12
+    table.table
+      thead
+        tr
+          th.col-xs-5 Name
+          th.col-xs-5 Country
+          th.col-xs-2
+      tbody
+        | {{# applications }}
+        tr
+          td {{ name }}
+          td {{ countryName }}
+          td.text-center
+            a.btn-action(href='/admin/applications/{{ this.primary() }}'): img(src='/lib/admin/images/edit.svg')
+            a.btn-action(href='#', on-click='confirmdelete: {{ this }}'): img(src='/lib/admin/images/cancel.svg')
+        | {{/applications}}
