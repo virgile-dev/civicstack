@@ -39,5 +39,20 @@
 
   "countries.argentina": "Argentina",
   "countries.usa": "United States of America",
-  "countries.france": "France"
+  "countries.france": "France",
+
+  "applications.label.project-title": "Project title",
+  "applications.label.organization-name": "Organization name",
+  "applications.label.location": "Location",
+  "applications.label.website": "Website",
+  "applications.label.twitter": "Twitter",
+  "applications.label.license": "License",
+  "applications.label.contact": "Contact",
+  "applications.label.working-at": "Working at",
+  "applications.label.description": "Description",
+  "applications.label.team": "Team",
+  "applications.label.technology": "Technology",
+  "applications.label.github-repo": "Github repo",
+  "applications.label.tags": "Tags",
+  "applications.placeholder.tags": "Comma-separated tags, like: \"politics, world, people, open source\""
 }
