@@ -54,5 +54,6 @@
   "applications.label.technology": "Technology",
   "applications.label.github-repo": "Github repo",
   "applications.label.tags": "Tags",
-  "applications.placeholder.tags": "Comma-separated tags, like: \"politics, world, people, open source\""
+  "applications.placeholder.tags": "Comma-separated tags, like: \"politics, world, people, open source\"",
+  "applications.option.select-country": "Select a country"
 }

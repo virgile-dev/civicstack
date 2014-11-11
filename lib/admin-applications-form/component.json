@@ -9,6 +9,7 @@
   "locals": [
     "applications",
     "application-model",
+    "countries",
     "render"
   ],
   "scripts": [ "main.js", "view.js" ],
