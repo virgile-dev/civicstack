@@ -2,6 +2,12 @@
   .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2
     form#application-form.form.form-horizontal.panel.panel-default
       .panel-body
+        .alert.alert-success.hide
+          strong=t('applications.alert.success-message-saved')
+          !=' ' + t('applications.alert.success-message-back')
+        .alert.alert-danger.hide
+          strong=t('applications.alert.error-message')
+          span.error-body=' '
         | {{# object }}
         | {{#if logo }}
         .form-group

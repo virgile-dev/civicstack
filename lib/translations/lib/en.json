@@ -58,5 +58,9 @@
   "applications.label.github-repo": "Github repo",
   "applications.label.tags": "Tags",
   "applications.placeholder.tags": "Comma-separated tags, like: \"politics, world, people, open source\"",
-  "applications.option.select-country": "Select a country"
+  "applications.option.select-country": "Select a country",
+  "applications.alert.success-message-saved": "Application saved successfully",
+  "applications.alert.success-message-back": "Please click <a class=\"alert-link\" href=\"/admin\">here</a> to return to the applications list",
+  "applications.alert.error-message": "There has been an error saving the application",
+  "applications.alert.error-message-body": "Error: {error}"
 }
