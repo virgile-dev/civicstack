@@ -1,61 +1,82 @@
 .row
-  .col-xs-12.col-md-8.col-md-offset-2
-    form#application-form.form.form-horizontal
-      | {{# object }}
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='title')=t('applications.label.project-title')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{name}}', id='title', tabindex=1)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='description')=t('applications.label.description')
-        .col-xs-12.col-md-8
-          textarea.form-control(type='text', value='{{description}}', id='description', tabindex=2, rows=4)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='country')=t('applications.label.location')
-        .col-xs-12.col-md-8
-          select.form-control(value='{{ country }}', id='country', tabindex=3)
-            option(selected=true, disabled=true)=t('applications.option.select-country')
-            | {{#countries:code}}
-            option(value='{{ code }}')='{{.}}'
-            | {{/countries}}
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='website')=t('applications.label.website')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{website}}', id='website', tabindex=4)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='team')=t('applications.label.team')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{team}}', id='team', tabindex=5)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='website')=t('applications.label.website')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{website}}', id='website', tabindex=6)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='twitter')=t('applications.label.twitter')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{twitter}}', id='twitter', tabindex=7)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='technology')=t('applications.label.technology')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{technology}}', id='technology', tabindex=8)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='license')=t('applications.label.license')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{license}}', id='license', tabindex=9)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='github')=t('applications.label.github')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{github}}', id='github', tabindex=10)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='contact')=t('applications.label.contact')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{contact}}', id='contact', tabindex=11)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='workingAt')=t('applications.label.workingAt')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{workingAt}}', id='workingAt', tabindex=12)
-      .form-group
-        label.col-xs-12.col-md-4.control-label(for='tags')=t('applications.label.tags')
-        .col-xs-12.col-md-8
-          input.form-control(type='text', value='{{tags}}', id='tags', tabindex=13, placeholder=t('applications.placeholder.tags'))
-      | {{/}}
+  .col-xs-12.col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2
+    form#application-form.form.form-horizontal.panel.panel-default
+      .panel-body
+        | {{# object }}
+        | {{#if logo }}
+        .form-group
+          .row
+            .col-md-4.col-md-offset-4.logo-container(style='background: {{ backgroundColor }}')
+              .vertical-align
+              img(src='{{logo}}')
+        | {{/if}}
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='logo')=t('applications.label.logo')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{logo}}', id='logo', tabindex=1)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='backgroundColor')=t('applications.label.backgroundColor')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{backgroundColor}}', id='backgroundColor', tabindex=2)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='title')=t('applications.label.project-title')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{name}}', id='title', tabindex=3)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='description')=t('applications.label.description')
+          .col-xs-12.col-sm-8
+            textarea.form-control(type='text', value='{{description}}', id='description', tabindex=4, rows=4)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='country')=t('applications.label.location')
+          .col-xs-12.col-sm-8
+            select.form-control(value='{{ country }}', id='country', tabindex=5)
+              option(selected=true, disabled=true)=t('applications.option.select-country')
+              | {{#countries:code}}
+              option(value='{{ code }}')='{{.}}'
+              | {{/countries}}
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='website')=t('applications.label.website')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{website}}', id='website', tabindex=6)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='team')=t('applications.label.team')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{team}}', id='team', tabindex=7)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='website')=t('applications.label.website')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{website}}', id='website', tabindex=8)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='twitter')=t('applications.label.twitter')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{twitter}}', id='twitter', tabindex=9)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='technology')=t('applications.label.technology')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{technology}}', id='technology', tabindex=10)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='license')=t('applications.label.license')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{license}}', id='license', tabindex=11)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='github')=t('applications.label.github')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{github}}', id='github', tabindex=12)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='contact')=t('applications.label.contact')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{contact}}', id='contact', tabindex=13)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='workingAt')=t('applications.label.working-at')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{workingAt}}', id='workingAt', tabindex=14)
+        .form-group
+          label.col-xs-12.col-sm-4.control-label(for='tags')=t('applications.label.tags')
+          .col-xs-12.col-sm-8
+            input.form-control(type='text', value='{{tags}}', id='tags', tabindex=15, placeholder=t('applications.placeholder.tags'))
+        | {{/}}
+      .panel-footer.text-right
+        button.hidden-xs.btn.btn-success(on-click='save', tabindex=16)=t('common.save')
+        button.visible-xs.btn.btn-success.btn-block(on-click='save', tabindex=16)=t('common.save')
+        a.hidden-xs.btn.btn-danger(href='/admin/applications', tabindex=17)=t('common.cancel')
+        a.visible-xs.btn.btn-danger.btn-block(href='/admin/applications', tabindex=17)=t('common.cancel')

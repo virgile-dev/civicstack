@@ -1,6 +1,6 @@
 article.col-xs-3.application
   a(href='/apps/{{ application.slug }}')
-    section.app-logo
+    section.app-logo(style='background-color: {{application.backgroundColor}}')
       .vertical-align
       img(src='{{ application.logo }}', title='{{ application.name }}')
   section.app-detail

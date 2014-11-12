@@ -10,7 +10,8 @@
     "applications",
     "application-model",
     "countries",
-    "render"
+    "render",
+    "request"
   ],
   "scripts": [ "main.js", "view.js" ],
   "styles": [ "styles.styl" ],

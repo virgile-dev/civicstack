@@ -6,6 +6,7 @@
   "common.ok": "Ok",
   "common.cancel": "Cancel",
   "common.continue": "Continue",
+  "common.save": "Guardar",
 
   "header.navbar.about-us": "About us",
   "header.navbar.admin": "Admin",
@@ -41,6 +42,8 @@
   "countries.usa": "United States of America",
   "countries.france": "France",
 
+  "applications.label.logo": "Logo",
+  "applications.label.backgroundColor": "Background color",
   "applications.label.project-title": "Project title",
   "applications.label.organization-name": "Organization name",
   "applications.label.location": "Location",
