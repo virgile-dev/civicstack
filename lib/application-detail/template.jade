@@ -1,7 +1,7 @@
 article.row.no-gutter.app-detail
   | {{#application}}
   section.main-info.col-xs-12.col-lg-3
-    .app-logo
+    .app-logo(style='background-color: {{ backgroundColor }}')
       .vertical-align
       img(src='{{ logo }}', title='Considerit')
     .app-data

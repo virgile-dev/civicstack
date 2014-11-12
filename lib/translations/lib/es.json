@@ -6,6 +6,7 @@
   "common.ok": "Aceptar",
   "common.cancel": "Cancelar",
   "common.continue": "Continuar",
+  "common.save": "Guardar",
 
   "header.navbar.about-us": "Nosotros",
   "header.navbar.admin": "Admin",
@@ -39,5 +40,27 @@
 
   "countries.argentina": "Argentina",
   "countries.usa": "Estados Unidos",
-  "countries.france": "Francia"
+  "countries.france": "Francia",
+
+  "applications.label.logo": "Logo",
+  "applications.label.backgroundColor": "Color de fondo",
+  "applications.label.project-title": "Título del proyecto",
+  "applications.label.organization-name": "Organización",
+  "applications.label.location": "Ubicación",
+  "applications.label.website": "Sitio web",
+  "applications.label.twitter": "Twitter",
+  "applications.label.license": "Licencia",
+  "applications.label.contact": "Contacto",
+  "applications.label.working-at": "Trabajando en",
+  "applications.label.description": "Descripción",
+  "applications.label.team": "Equipo",
+  "applications.label.technology": "Tecnología",
+  "applications.label.github-repo": "Repositorio de Github",
+  "applications.label.tags": "Tags",
+  "applications.placeholder.tags": "Separados por coma, por ejemplo: \"política, mundo, gente, open source\"",
+  "applications.option.select-country": "Seleccione un país",
+  "applications.alert.success-message-saved": "Aplicación guardada exitosamente",
+  "applications.alert.success-message-back": "Por favor, haga click <a class=\"alert-link\" href=\"/admin\">aquí</a> para volver al listado de aplicaciones",
+  "applications.alert.error-message": "Se ha producido un error al grabar la aplicación",
+  "applications.alert.error-message-body": "Error: {error}"
 }

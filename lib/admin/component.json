@@ -11,6 +11,7 @@
   ],
   "locals": [
     "admin-applications-list",
+    "admin-applications-form",
     "render",
     "user",
     "user-model"
