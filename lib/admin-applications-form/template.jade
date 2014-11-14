@@ -80,9 +80,15 @@
           label.col-xs-12.col-sm-4.control-label(for='tags')=t('applications.label.tags')
           .col-xs-12.col-sm-8
             input.form-control(type='text', value='{{tags}}', id='tags', tabindex=15, placeholder=t('applications.placeholder.tags'))
+        .form-group
+          .col-xs-12.col-sm-4.col-sm-offset-4
+            .checkbox
+              label
+                input(type='checkbox', checked='{{ approved }}', id='approved', tabindex=16)
+                =t('applications.label.approved')
         | {{/}}
       .panel-footer.text-right
-        button.hidden-xs.btn.btn-success(on-click='save', tabindex=16)=t('common.save')
-        button.visible-xs.btn.btn-success.btn-block(on-click='save', tabindex=16)=t('common.save')
-        a.hidden-xs.btn.btn-danger(href='/admin/applications', tabindex=17)=t('common.cancel')
-        a.visible-xs.btn.btn-danger.btn-block(href='/admin/applications', tabindex=17)=t('common.cancel')
+        button.hidden-xs.btn.btn-success(on-click='save', tabindex=17)=t('common.save')
+        button.visible-xs.btn.btn-success.btn-block(on-click='save', tabindex=17)=t('common.save')
+        a.hidden-xs.btn.btn-danger(href='/admin/applications', tabindex=18)=t('common.cancel')
+        a.visible-xs.btn.btn-danger.btn-block(href='/admin/applications', tabindex=18)=t('common.cancel')
