@@ -45,6 +45,7 @@
   "applications.label.logo": "Logo",
   "applications.label.backgroundColor": "Background color",
   "applications.label.project-title": "Project title",
+  "applications.label.approved": "Approved",
   "applications.label.organization-name": "Organization name",
   "applications.label.location": "Location",
   "applications.label.website": "Website",
