@@ -9,13 +9,11 @@
           strong=t('applications.alert.error-message')
           span.error-body=' '
         | {{# object }}
-        | {{#if logo }}
         .form-group
           .row
             .col-md-4.col-md-offset-4.logo-container(style='background: {{ backgroundColor }}')
               .vertical-align
-              img(src='{{logo}}')
-        | {{/if}}
+              img.application-logo
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='logo')=t('applications.label.logo')
           .col-xs-12.col-sm-8
