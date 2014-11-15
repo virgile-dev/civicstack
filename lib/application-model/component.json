@@ -7,6 +7,7 @@
     "modella/ajax": "0.2.4"
   },
   "locals": [
+    "application-api",
     "countries"
   ],
   "scripts": [
