@@ -19,7 +19,7 @@
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='logo')=t('applications.label.logo')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{logo}}', id='logo', tabindex=1)
+            input.form-control(type='text', value='{{logo}}', id='logo', name='logo' tabindex=1)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='backgroundColor')=t('applications.label.backgroundColor')
           .col-xs-12.col-sm-8
@@ -49,46 +49,42 @@
           .col-xs-12.col-sm-8
             input.form-control(type='text', value='{{team}}', id='team', tabindex=7)
         .form-group
-          label.col-xs-12.col-sm-4.control-label(for='website')=t('applications.label.website')
-          .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{website}}', id='website', tabindex=8)
-        .form-group
           label.col-xs-12.col-sm-4.control-label(for='twitter')=t('applications.label.twitter')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{twitter}}', id='twitter', tabindex=9)
+            input.form-control(type='text', value='{{twitter}}', id='twitter', tabindex=8)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='technology')=t('applications.label.technology')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{technology}}', id='technology', tabindex=10)
+            input.form-control(type='text', value='{{technology}}', id='technology', tabindex=9)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='license')=t('applications.label.license')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{license}}', id='license', tabindex=11)
+            input.form-control(type='text', value='{{license}}', id='license', tabindex=10)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='github')=t('applications.label.github')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{github}}', id='github', tabindex=12)
+            input.form-control(type='text', value='{{github}}', id='github', tabindex=11)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='contact')=t('applications.label.contact')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{contact}}', id='contact', tabindex=13)
+            input.form-control(type='text', value='{{contact}}', id='contact', tabindex=12)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='workingAt')=t('applications.label.working-at')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{workingAt}}', id='workingAt', tabindex=14)
+            input.form-control(type='text', value='{{workingAt}}', id='workingAt', tabindex=13)
         .form-group
           label.col-xs-12.col-sm-4.control-label(for='tags')=t('applications.label.tags')
           .col-xs-12.col-sm-8
-            input.form-control(type='text', value='{{tags}}', id='tags', tabindex=15, placeholder=t('applications.placeholder.tags'))
+            input.form-control(type='text', value='{{tags}}', id='tags', tabindex=14, placeholder=t('applications.placeholder.tags'))
         .form-group
           .col-xs-12.col-sm-4.col-sm-offset-4
             .checkbox
               label
-                input(type='checkbox', checked='{{ approved }}', id='approved', tabindex=16)
+                input(type='checkbox', checked='{{ approved }}', id='approved', tabindex=15)
                 =t('applications.label.approved')
         | {{/}}
       .panel-footer.text-right
-        button.hidden-xs.btn.btn-success(on-click='save', tabindex=17)=t('common.save')
-        button.visible-xs.btn.btn-success.btn-block(on-click='save', tabindex=17)=t('common.save')
-        a.hidden-xs.btn.btn-danger(href='/admin/applications', tabindex=18)=t('common.cancel')
-        a.visible-xs.btn.btn-danger.btn-block(href='/admin/applications', tabindex=18)=t('common.cancel')
+        button.hidden-xs.btn.btn-success(on-click='save', tabindex=16)=t('common.save')
+        button.visible-xs.btn.btn-success.btn-block(on-click='save', tabindex=16)=t('common.save')
+        a.hidden-xs.btn.btn-danger(href='/admin/applications', tabindex=17)=t('common.cancel')
+        a.visible-xs.btn.btn-danger.btn-block(href='/admin/applications', tabindex=17)=t('common.cancel')
