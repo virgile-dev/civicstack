@@ -56,7 +56,7 @@
   "applications.label.description": "Descripción",
   "applications.label.team": "Equipo",
   "applications.label.technology": "Tecnología",
-  "applications.label.github-repo": "Repositorio de Github",
+  "applications.label.github": "Repositorio de Github",
   "applications.label.tags": "Tags",
   "applications.placeholder.tags": "Separados por coma, por ejemplo: \"política, mundo, gente, open source\"",
   "applications.option.select-country": "Seleccione un país",
