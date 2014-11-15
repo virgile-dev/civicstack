@@ -1,0 +1,7 @@
+{
+  "name": "application-api",
+  "description": "Modella plugin to query server-side custom urls",
+  "locals": [ "request" ],
+  "scripts": [ "api.js" ],
+  "main": "api.js"
+}
