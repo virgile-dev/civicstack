@@ -2,7 +2,7 @@
 section.row.applications
   | {{#applications}}
   | {{#filter(this)}}
-  .col-xs-3
+  .col-xs-12.col-sm-6.col-md-3
     article.application
       a(href='/apps/{{ _id }}')
         section.app-logo(style='background-color: {{ backgroundColor }}')

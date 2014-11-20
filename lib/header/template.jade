@@ -8,7 +8,7 @@
         =t('global.website.title')
         small=t('global.website.subtitle')
     ul.nav.navbar-nav.navbar-left
-    ul.nav.navbar-nav.navbar-right
+    ul.nav.navbar-nav.navbar-right.hidden-xs
       li: a(href='/about')=t('header.navbar.about-us')
       | {{#if !user.logged()}}
       li
